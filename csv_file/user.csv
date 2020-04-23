@@ -12,4 +12,6 @@ id,first_name,last_name,password,position,salary,role
 11,amira,bernsdtein,12345678,teacher,10,teacher
 12,amira,bernsdtein,12345678,teacher,10,teacher
 13,amira,bernsdtein,12345678,teacher,10,teacher
-22,Daryl,Mizrahi,3333333,student,0,student
+30,Max,TEST,3333333,student,0,admin
+23,Elie,Maki,1234,student,5k,student
+22,Max,Bador,3453,student,1,student

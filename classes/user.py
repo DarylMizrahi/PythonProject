@@ -9,7 +9,7 @@ class User:
 
     def user_auth(self, name, password):
         try:
-            self.result.load_from_csv_file("/Users/darylmizrahi/Desktop/PythonDay1/csv_file/user.csv")
+            self.result.load_from_csv_file("/Users/darylmizrahi/Desktop/PythonProjectITC/csv_file/user.csv")
             for x in self.result.employee:
                 if x["first_name"] == name and x["password"] == password:
                     return x["role"]
@@ -17,7 +17,6 @@ class User:
 
         except Exception as error:
             print("There is an error : " + str(error))
-
 
 user = User()
 role = user.user_auth("amir", "12345678")
